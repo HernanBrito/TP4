@@ -17,7 +17,7 @@ public class Supermercado {
 		return nombre;
 	}
 	
-	public String getDirrecion() {
+	public String getDirecion() {
 		return direccion;
 	}
 	

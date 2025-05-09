@@ -17,7 +17,7 @@ public class ProductoPrimeraNecesidad extends Producto {
 	
 	@Override
 	public Double getPrecio() {
-		 return Math.round(super.getPrecio() * (1 - porcenDescuento / 100.0) ) * 1.0;
+		 return Math.round(super.getPrecio() * (1 - porcenDescuento / 100.0) * 100 ) / 100.0 ;
 	}
 	
 	
